@@ -48,7 +48,7 @@ Station$CO2.1.corr <- Station$CO2.1+1500
 Pair <- Station$Pa*100        # convert barometric pressure into Pascals (Pa)
 Tair <- Station$Ta + 273.15   # convert air temperature into Kelvin temperature (K)
 
-CO2.air.ppm <- 400            # assumption for atmospheric CO2 concentration
+CO2.air.ppm <- 1000            # assumption for atmospheric CO2 concentration
 R  <- 8.3145                  # Ideal gas constant (J mol-1 K-1)
 
 # Error of Vaisala sensors +/-[1.5% range + 2% reading] = +/-[3000 + 2% reading] ppm
@@ -1033,9 +1033,9 @@ date.validation <- c("2014-04-08 08:00:00 GMT",
                      "2015-08-24 08:00:00 GMT",
                      "2015-09-25 08:00:00 GMT")
 
-# Field measurements taken with the EGM4 infrared gas analyzer (PP Systems, UK)
-measurements <- c(7.73E-2, 5.90E-2, 2.43E-2, 4.46E-2, 9.06E-2, 3.85E-2, 9.27E-2, 1.01E-1, 
-                  8.03E-2, 7.66E-2, 6.45E-2, 5.99E-2, 1.02E-1, 2.05E-2, 2.43E-2, 3.34E-2)
+# Field measurements taken with the EGM4 infrared gas analyzer (PP Systems, UK) (g CO2-C/(m2s))
+measurements <- c(7.73E-5, 5.90E-5, 2.43E-5, 4.46E-5, 9.06E-5, 3.85E-5, 9.27E-5, 1.01E-4, 
+                  8.03E-5, 7.66E-5, 6.45E-5, 5.99E-5, 1.02E-4, 2.05E-5, 2.43E-5, 3.34E-5)
 
 validation <- data.frame()
 for (i in date.validation[1:16]) {
