@@ -1,8 +1,12 @@
 # Lathuilliere_SI_JGR
-Supporting Information: R code for soil CO2 efflux calculations and figures (main text and SI) 
+Supporting Information for 
 
-Lathuilliere, M.J. et al. paper under review "Soil CO2 concentrations and efflux dynamics of a tree island in the Pantanal wetland"
-submitted to Journal of Geophysical Research - Biogeosciences
+Lathuilliere, M.J., Pinto Jr, O.B., Johnson, M.J., Jassal, R.S., Dalmagro, H.J.,
+Leite, N.K., Speratti, A., Krampe, D., Couto, E.G. Soil CO2 concentration and 
+efflux dynamics of a tree island in the Pantanal wetland. Submitted to 
+Journal of Geophysical Research - Biogeosciences
+
+R code for soil CO2 efflux calculations and figures (main text and supporting information) 
 
 This code:
 - imports the data obtained from the field measurements described in the Main document
@@ -10,6 +14,7 @@ This code:
 - applies CO2 efflux models using CO2 concentrations measured at the site
 - generates the Figures that appear in the manuscript
 - generates the table of data used in the manuscript
+- generates two validation tables comparing field measurements to 30-min and daily average soil efflux results
 
 References cited 
 
