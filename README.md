@@ -18,6 +18,8 @@ This code:
 
 References cited 
 
+Dias M.F. (2015), Dynamics of CO2 efflux in two different ecosystems compositions, Dissertation, Department of Environmental Sciences, University of Cuiabá, Cuiabá, Mato Grosso, Brazil.
+
 Millington, R.J., and J.P. Quirk (1961), Permeability of porous solids, Transactions of the Faraday Society, 57: 1-8, 
 doi: 10.1039/TF9615701200.
 

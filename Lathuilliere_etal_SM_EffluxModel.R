@@ -5,7 +5,7 @@ library(grid)
 library(scales)
 
 # Data input and output locations
-input  <- "C:/Users/Mike/Dropbox/Paper Cordbaia/Revision/Rev2/"
+input  <- "C:/Users/Mike/Dropbox/Paper Cordbaia/Revision/Rev2/Data and scripts/"
 output <- "C:/Users/Mike/Desktop/Cordbaia_graphs/"
 
 ## Input data sources -------------------------------------------------------------------------------------------
@@ -1014,7 +1014,7 @@ dev.print(pdf, file=graph13, width=8, height=8, pointsize=10)
 #---------------------------------------------------------------
 # Create the data frame to compare field measurements for validation
 
-# select dates from field measurements
+# select dates from field measurements (Dias, 2015)
 
 date.validation <- c("2014-04-08 08:00:00 GMT",
                      "2014-06-11 08:00:00 GMT",
