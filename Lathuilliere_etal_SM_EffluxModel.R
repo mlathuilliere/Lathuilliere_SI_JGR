@@ -35,7 +35,7 @@ Station <- read.table(input.path, header=TRUE, sep=",", na.strings="NA", dec="."
 
 ## Apply data formats and corrections ---------------------------------------------------------------------------
 
-Station$timestamp <- as.POSIXct(Station$timestamp, "%m/%d/%Y %H:%M", tz="GMT")      
+Station$timestamp <- as.POSIXct(Station$timestamp, "%d-%m-%Y %H:%M", tz="GMT")      
 Station$date <- as.Date(Station$timestamp, "%Y-%m-%d %H:%M:%S", tz="GMT")  
 
 # Adjustment of CO2.1 with 1500 ppm according to Text S1 in the Supporting Information
