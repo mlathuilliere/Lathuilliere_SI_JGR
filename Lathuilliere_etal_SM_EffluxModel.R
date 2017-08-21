@@ -5,12 +5,12 @@ library(grid)
 library(scales)
 
 # Data input and output locations
-input  <- "C:/Users/Mike/Dropbox/Paper Cordbaia/Revision/Rev2/Data and scripts/"
+input  <- "C:/Users/Mike/Documents/Compositions/Peer_Reviewed/JGR_2017_2/Data/"
 output <- "C:/Users/Mike/Desktop/Cordbaia_graphs/"
 
 ## Input data sources -------------------------------------------------------------------------------------------
 
-input.path <- paste(input, "Lathuilliere_etal_SM_Data_Measurements.csv", sep = "")
+input.path <- paste(input, "Lathuilliere_etal_SM_Data_Measurements.txt", sep = "")
 
 # output for graphs and tables
 graph1       <- paste(output, "diffusivities.pdf", sep = "")
@@ -48,7 +48,7 @@ Station$CO2.1.corr <- Station$CO2.1+1500
 Pair <- Station$Pa*100        # convert barometric pressure into Pascals (Pa)
 Tair <- Station$Ta + 273.15   # convert air temperature into Kelvin temperature (K)
 
-CO2.air.ppm <- 1000            # assumption for atmospheric CO2 concentration
+CO2.air.ppm <- 400            # assumption for atmospheric CO2 concentration
 R  <- 8.3145                  # Ideal gas constant (J mol-1 K-1)
 
 # Error of Vaisala sensors +/-[1.5% range + 2% reading] = +/-[3000 + 2% reading] ppm
