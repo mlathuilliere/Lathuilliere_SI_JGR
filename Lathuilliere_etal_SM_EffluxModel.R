@@ -5,7 +5,7 @@ library(grid)
 library(scales)
 
 # Data input and output locations
-input  <- "C:/Users/Mike/Documents/Compositions/Peer_Reviewed/JGR_2017_2/Data/"
+input  <- "C:/Users/Mike/Documents/Compositions/Peer_Reviewed/JGR_2017_2/Data/"  #enter your data path here
 output <- "C:/Users/Mike/Desktop/Cordbaia_graphs/"
 
 ## Input data sources -------------------------------------------------------------------------------------------

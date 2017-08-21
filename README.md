@@ -3,8 +3,8 @@ Supporting Information for
 
 Lathuilliere, M.J., Pinto Jr, O.B., Johnson, M.J., Jassal, R.S., Dalmagro, H.J.,
 Leite, N.K., Speratti, A., Krampe, D., Couto, E.G. Soil CO2 concentration and 
-efflux dynamics of a tree island in the Pantanal wetland. Submitted to 
-Journal of Geophysical Research - Biogeosciences
+efflux dynamics of a tree island in the Pantanal wetland. Journal of Geophysical Research - Biogeosciences,
+doi: 10.1002/2017JG003877.
 
 R code for soil CO2 efflux calculations and figures (main text and supporting information) 
 
